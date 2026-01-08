@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
-import pic1 from "../assets/pic1.png";
+import pic1 from "../assets/pic1.jpg";
 
 function Home() {
   return (
