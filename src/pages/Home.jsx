@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
+import pic1 from "../assets/pic1.png";
 
 function Home() {
   return (
@@ -85,7 +86,7 @@ function Home() {
               className="mt-12 flex flex-wrap gap-5"
             >
               <Link
-                to="/escrow/create"
+                to="/escrow"
                 className="group relative bg-gradient-to-r from-[#D4AF37] to-yellow-500 text-black px-8 py-4 rounded-xl font-semibold shadow-2xl hover:shadow-[#D4AF37]/50 transition-all duration-300 hover:scale-105 overflow-hidden"
               >
                 <span className="relative z-10">Use Escrow</span>
@@ -148,7 +149,7 @@ function Home() {
             <motion.img
               whileHover={{ scale: 1.02, rotate: 1 }}
               transition={{ duration: 0.3 }}
-              src="/src/assets/pic1.jpg"
+              src={pic1}
               alt="Secure escrow trade"
               className="relative z-10 w-full max-w-lg rounded-2xl shadow-2xl border border-gray-800 hover:border-[#D4AF37]/50 transition-all duration-300"
             />
